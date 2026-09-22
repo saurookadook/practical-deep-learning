@@ -1,0 +1,45 @@
+{
+    //---------------------  AI Co-Authors  -------------------------
+    // Co-Authored-By: Claude <noreply@anthropic.com>
+    // Co-authored-by: Copilot <copilot@github.com>
+    //----------------------------------------------------------------
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    // ------ Python
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "python.analysis.extraPaths": [
+        ".venv/lib/python3.13/site-packages",
+    ],
+    "python.analysis.typeCheckingMode": "standard",
+    // ------ JSON
+    "json.schemaDownload.trustedDomains": {
+        "https://schemastore.azurewebsites.net/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://www.schemastore.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://json-schema.org/": true,
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://railway.com/railway.schema.json": true
+    },
+    "[json]": {
+        "editor.tabSize": 4
+    },
+    "[jsonc]": {
+        "editor.tabSize": 4
+    },
+    "[yaml]": {
+        "editor.detectIndentation": false,
+        "editor.tabSize": 2
+    },
+    "[yml]": {
+        "editor.detectIndentation": false,
+        "editor.tabSize": 2
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml",
+        "editor.formatOnSave": false,
+        "editor.tabSize": 4
+    }
+}

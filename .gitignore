@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json

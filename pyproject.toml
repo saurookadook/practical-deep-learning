@@ -5,3 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
+
+[dependency-groups]
+dev = ["ipykernel>=7.3.0", "ruff>=0.16.8"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.uv]
+required-environments = [
+    "sys_platform == 'darwin' and platform_machine == 'x86_64'",
+]
