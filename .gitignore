@@ -12,3 +12,5 @@ wheels/
 .vscode/
 !.vscode/extensions.json
 !.vscode/settings.json
+
+lessons/**/*.jpg
